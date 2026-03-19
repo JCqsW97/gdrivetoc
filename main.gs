@@ -9,7 +9,7 @@
  *       The folder ID is likely to be everything after the ‘folders/’ portion of the URL.
  * 
  * @Source: https://www.youtube.com/watch?v=PNrkjHkgZwU. (last checked on 20/10/21)
- * @Modified by JcqsW97
+ * @Modified by JCqsW97
  * 
  * @version 5 (updated 26/03/19)
  *
