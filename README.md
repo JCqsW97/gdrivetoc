@@ -8,8 +8,6 @@
 
 </div>
 
-![Project Banner](https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.0&auto=format&fit=crop&w=1600&q=80)
-
 ---
 
 ## 📌 Features
@@ -90,3 +88,9 @@ This project is licensed under the MIT License. See the [`LICENSE`](LICENSE) fil
 ---
 
 *Happy organizing your Google Drive!* 🚀
+
+<div align="center">
+
+![Banner](https://capsule-render.vercel.app/api?type=waving&height=150&color=7b4397&section=footer&fontColor=FFFFFF)
+
+</div>
