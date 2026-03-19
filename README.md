@@ -1,8 +1,14 @@
+<div align="center">
+
+![Banner](https://capsule-render.vercel.app/api?type=waving&height=300&color=7b4397&text=gdrivetoc&section=header&fontColor=FFFFFF)
+
 # gdrivetoc - Google Drive Folder Table of Contents Generator
 
-![Project Banner](https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.0&auto=format&fit=crop&w=1600&q=80)
+<p align="center">Create a comprehensive table of contents for any Google Drive folder with ease! This Google Apps Script allows you to generate a detailed list of all files and subfolders within a specified folder, directly inside a Google Spreadsheet.</p>
 
-Create a comprehensive table of contents for any Google Drive folder with ease! This Google Apps Script allows you to generate a detailed list of all files and subfolders within a specified folder, directly inside a Google Spreadsheet.
+</div>
+
+![Project Banner](https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.0&auto=format&fit=crop&w=1600&q=80)
 
 ---
 
