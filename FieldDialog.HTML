@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base target="_top">
+</head>
+<!-- Include Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+<style>
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* Container for buttons in grid */
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+
+  /* Style for all buttons */
+  .btn {
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  .btn:active {
+  /* Change background color when button is clicked */
+  background-color: #2a56c6; /* darker shade for visual feedback */
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.2); /* inset shadow for pressed effect */
+  transform: translateY(1px); /* slight movement for a pressed effect */
+  }
+
+  /* Google-like button colors */
+  .btn-primary {
+    background-color: #4285F4;
+    color: white;
+  }
+
+  .btn-primary:hover {
+    background-color: #357ae8;
+  }
+
+  /* Cancel button style */
+  .cancel-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f4b400;
+    color: #fff;
+  }
+
+  .cancel-btn:hover {
+    background-color: #db9d00;
+  }
+</style>
+<body>
+  <!-- Buttons with correct quotes -->
+  <div class="button-grid">
+    <button class="btn btn-primary" onclick="submitField('Owner')">Owner</button>
+    <button class="btn btn-primary" onclick="submitField('Editor')">Editor</button>
+    <button class="btn btn-primary" onclick="submitField('Viewer')">Viewer</button>
+    <button class="btn btn-primary" onclick="submitField('Description')">Description</button>
+    <button class="btn btn-primary" onclick="submitField('Date Created')">Date Created</button>
+    <button class="btn btn-primary" onclick="submitField('Last Updated')">Last Updated</button>
+    <button class="btn btn-primary" onclick="submitField('Size')">Size</button>
+    <button class="btn btn-primary" onclick="submitField('Access')">Access</button>
+    <button class="btn btn-primary" onclick="submitField('Permission')">Permission</button>
+    <button class="btn cancel-btn" onclick="google.script.host.close()">Cancel</button>
+  </div>
+  
+  <i>This pop up will disappear after the script completion</i>
+  
+  <script>
+    function submitField(fieldName) {      
+      google.script.run.withSuccessHandler(function() {
+        // close the dialog after processing
+        google.script.host.close();
+      }).List(fieldName);
+    }
+  </script>
+</body>
+</html>
