@@ -8,10 +8,10 @@
  *       it consists of a sequence of letters and numbers following the ‘folders/’ portion of the URL.
  *       The folder ID is likely to be everything after the ‘folders/’ portion of the URL.
  * 
- * @Source: https://www.youtube.com/watch?v=PNrkjHkgZwU. (last checked on 20/10/21)
+ * @Source: https://www.youtube.com/watch?v=PNrkjHkgZwU. (last checked on October 21, 2020)
  * @Modified by JCqsW97
  * 
- * @version 5 (updated 26/03/19)
+ * @version 5 (updated on March 19, 2026)
  *
  */
 // ======================================================================================================
